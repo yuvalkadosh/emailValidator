@@ -1,9 +1,9 @@
 # emailValidator
-Description
+**Description**
 
 emailValidator.py is a Python script designed to validate Office 365 (o365) email addresses. It provides a simple command-line interface to check the validity of single emails, a file containing a list of emails, and allows you to output the valid emails to a specified file.
 
-Usage
+**Usage**
 
 Execute the script using the following command format:
 
@@ -17,7 +17,7 @@ The script accepts the following flags:
 
 -o: Specifies the output file for valid email addresses.
 
-Examples
+**Examples**
 
 To validate a single email address:
 
@@ -31,7 +31,7 @@ To specify an output file for valid email addresses:
 
 python3 emailValidator.py -f path/to/email_list.txt -o path/to/valid_emails.txt
 
-Requirements
+**Requirements**
 
 -requests
 
